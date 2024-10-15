@@ -76,7 +76,7 @@ nav a{
   display: flex;
   align-items: center;
   color: #f6f5f3;
-  
+  text-align: center;
 }
 
 nav a:hover{
@@ -115,6 +115,10 @@ nav li:first-child{
   display: none;
 }
 
+.title{
+  width: 100%;
+}
+
 .footer { 
     position: absolute; 
     bottom: 0; 
@@ -123,11 +127,39 @@ nav li:first-child{
 }
 
 @media(max-width: 800px){
+  .title{
+    height: 100px;
+    text-align: center;
+  }
+  .title a{
+    height: 100%;
+    padding: 0 30px;
+    font-family: "Ruge Boogie", cursive;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-size:calc(100% + 2vw);
+    font-style: normal;
+    text-decoration: none;
+    display: grid;
+    align-items: center;
+    color: #f6f5f3;
+    text-align: center;
+    vertical-align: middle;
+  }
   .hideOnMobile{
     display: none;
   }
   .menu-button{
     display: block;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+}
+@media(min-width: 800px){
+  .hideOnDesktop{
+    display: none;
   }
 }
 @media(max-width: 400px){
@@ -138,7 +170,7 @@ nav li:first-child{
 
 #bannerimage {
   width: 100%;
-  background-image: url(/Spiced_Milk_Drink_Banner.png);
+  background-image: url(/Assets/Spiced_Milk_Drink_Banner.png);
   height: 200px;
   background-repeat: no-repeat;
   background-color: purple;
