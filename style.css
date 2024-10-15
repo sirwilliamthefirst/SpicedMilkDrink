@@ -1,0 +1,146 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+*{
+  margin: 0;
+  padding: 0;
+  }
+body {
+  min-height: 100vh;
+  background-color: #e6e2dc;
+  color: black;
+  font-family: Verdana;
+}
+
+/* Add a black background color to the top navigation */
+/*
+.topnav {
+  background-color: #f6f5f3;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+/*
+.topnav a {
+  float: left;
+  color: #b6a897;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+/*
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+/*
+.topnav .active {
+  background-color: #ae9f8c;
+  color: white;
+}
+*/
+
+/* we are using this color pallete https://www.color-hex.com/color-palette/114628*/
+
+nav{
+  background-color: #b6a897;
+  box-shadow: 3px 3px 5px rgba(0,0,0, 0.1);
+}
+nav ul{
+ width: 100%;
+ list-style: none;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+nav li{
+  height: 50px;
+
+}
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  font-family: "Ruge Boogie", cursive;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-size:calc(100% + 1vw);
+  font-style: normal;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #f6f5f3;
+  
+}
+
+nav a:hover{
+  background-color: #e6e2dc;
+  color: #c6bbae
+}
+nav li:first-child{
+  margin-right: auto;
+}
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: #b6a897;
+  backdrop-filter: blur(10px);
+  box-shadow: -10 0 10px rgba(0,0,0,0.1);
+  display: none;
+  flex-direction: column;
+  /*align-items: flex-start;*/
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidebar li{
+  width: 100%;
+}
+
+.sidebar a{
+  width: 100%;
+}
+
+.menu-button{
+  display: none;
+}
+
+.footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+}
+
+@media(max-width: 800px){
+  .hideOnMobile{
+    display: none;
+  }
+  .menu-button{
+    display: block;
+  }
+}
+@media(max-width: 400px){
+  .sidebar{
+    width: 100%;
+  }
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url(/Spiced_Milk_Drink_Banner.png);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-color: purple;
+  background-position: center;
+}
