@@ -1,0 +1,10 @@
+// Variable overrides first
+$primary: #c6bbae;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+// Then add custom stuff here
