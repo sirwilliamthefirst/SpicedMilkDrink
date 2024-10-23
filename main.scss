@@ -2,11 +2,14 @@
 
 // Variable overrides first
 $primary: #b6a897;
+$secondary: #3a2306;
 $enable-shadows: true;
 $prefix: "mo-";
 $body-bg: #f6f5f3;
 $body-color: #f6f5f3;
 $headings-color: #3a2306;
+$body-emphasis-color: #241508;
+$text-secondary: #8d7147;
 
 // Then import Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
