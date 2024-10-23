@@ -1,13 +1,15 @@
+// Color palletes https://www.color-hex.com/color-palette/14097   https://www.color-hex.com/color-palette/114628
+
 // Variable overrides first
 $primary: #b6a897;
 $enable-shadows: true;
 $prefix: "mo-";
 $body-bg: #f6f5f3;
 $body-color: #f6f5f3;
+$headings-color: #3a2306;
 
 // Then import Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
 
 
 // Then add custom stuff here
-
