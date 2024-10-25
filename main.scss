@@ -1,6 +1,7 @@
 // Color palletes https://www.color-hex.com/color-palette/14097   https://www.color-hex.com/color-palette/114628
 
 // Variable overrides first
+
 $primary: #b6a897;
 $secondary: #3a2306;
 $enable-shadows: true;
@@ -9,10 +10,21 @@ $body-bg: #f6f5f3;
 $body-color: #f6f5f3;
 $headings-color: #3a2306;
 $body-emphasis-color: #241508;
-$text-secondary: #8d7147;
+
+$info: #b6a897;
+.text-info {
+  text-decoration: none; // Remove underline
+  
+}
+.text-body-secondary {
+  color: green !important; // Use !important if necessary
+}
 
 // Then import Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
 
 
 // Then add custom stuff here
+.text-body-secondary {
+  color: #563517 !important; // Use !important if necessary
+}

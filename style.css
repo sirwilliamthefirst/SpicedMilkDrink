@@ -126,6 +126,23 @@ nav li:first-child{
     z-index: 10;
 }
 
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Make the card take full height of its container */
+}
+
+.card-body {
+  flex-grow: 1; /* Ensure the body grows to fill available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card img {
+    object-fit: cover; /* Ensure the images maintain aspect ratio while filling space */
+    height: 400px; /* Ensure the image height is uniform */
+  }
 @media(max-width: 800px){
   .title{
     height: 100px;
