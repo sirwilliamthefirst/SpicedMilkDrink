@@ -57,11 +57,9 @@ nav ul{
  display: flex;
  justify-content: flex-end;
  align-items: center;
+ border-bottom: 5px solid #ae9f8c;
 }
 
-.carousel-border {
-  border: 5px solid #ae9f8c; /* Adjust the thickness and color */
-}
 
 nav li{
   height: 50px;
