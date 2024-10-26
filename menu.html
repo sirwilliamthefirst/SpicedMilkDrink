@@ -19,62 +19,56 @@
   
   </head>
   <body>
-<nav> <!-- interactive nav bar -->
-  <ul class = "sidebar">
-      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
-      <li><a href="/menu.html">Menu</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/news.html">News</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-      </ul>
-    <ul class="hideOnDesktop" >
-      <li class="title"><a href="/">Spiced Milk Drink</a></li>
-    </ul>
-    <ul>
-      <li class="hideOnMobile"><a href="/">Spiced Milk Drink</a></li>
-      <li class="hideOnMobile"><a href="/menu.html">Menu</a></li>
-      <li class="hideOnMobile"><a href="/about.html">About</a></li>
-      <li class="hideOnMobile"><a href="/news.html">News</a></li>
-      <li class="hideOnMobile"><a href="/contact.html">Contact</a></li>
-      <li class="menu-button" onClick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -50 960 960" width="40">
- <path d="m88.7 133.2c4.8 109.6 66.91 388.6 138.29 458.3h364.9c29.2-29.1 41.5-116.6 71.5-192 12.2-30.5 48.1-167.6 54.6-165.3 146.5-28.2 94.4 201.9-63.8 190.4-19.5 37.9-34.1 76.9-35.2 76.1 290.3-80.2 282.5-287.7 115.97-313.4-8.8-13.48 8.1-41.6 3.5-55.9l-329.1-0.9zm-108.69 464.7c22.17 51.17 102.2 80.6 146.5 89.8h588.13c44.3-9.19 122.1-36.2 144.29-87.4l-412.1 4.7z"/>
-</svg></a></li>
-      </ul>
-      </nav>
+    <nav> <!-- interactive nav bar -->
+      <ul class = "sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+          <li><a href="/menu.html">Menu</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/news.html">News</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        <ul>
+          <li><a href="/">Spiced Milk Drink</a></li>
+          <li class="hideOnMobile"><a href="/menu.html">Menu</a></li>
+          <li class="hideOnMobile"><a href="/about.html">About</a></li>
+          <li class="hideOnMobile"><a href="/news.html">News</a></li>
+          <li class="hideOnMobile"><a href="/contact.html">Contact</a></li>
+          <li class="menu-button" onClick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -50 960 960" width="40">
+     <path d="m88.7 133.2c4.8 109.6 66.91 388.6 138.29 458.3h364.9c29.2-29.1 41.5-116.6 71.5-192 12.2-30.5 48.1-167.6 54.6-165.3 146.5-28.2 94.4 201.9-63.8 190.4-19.5 37.9-34.1 76.9-35.2 76.1 290.3-80.2 282.5-287.7 115.97-313.4-8.8-13.48 8.1-41.6 3.5-55.9l-329.1-0.9zm-108.69 464.7c22.17 51.17 102.2 80.6 146.5 89.8h588.13c44.3-9.19 122.1-36.2 144.29-87.4l-412.1 4.7z"/>
+    </svg></a></li>
+          </ul>
+          </nav>
 
-      <div class="position-relative">
-        <!-- Bootstrap Carousel -->
-        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://via.placeholder.com/1920x200" class="d-block w-100" alt="Slide 1">
-            </div>
-            <div class="carousel-item">
-              <img src="https://via.placeholder.com/1920x200" class="d-block w-100" alt="Slide 2">
-            </div>
-            <div class="carousel-item">
-              <img src="https://via.placeholder.com/1920x200" class="d-block w-100" alt="Slide 3">
-            </div>
+      <div id="carousel" class="carousel slide carousel-border mt-0 pt-0" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="assets\spiced_milk_drink_banner.png" class="d-block w-100" alt="Slide 1">
           </div>
-          <!-- Carousel controls (optional) -->
-          <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </a>
+          <div class="carousel-item">
+            <img src="assets\pumpkin_spice_seasonal_banner.png" class="d-block w-100" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://via.placeholder.com/1920x200" class="d-block w-100" alt="Slide 3">
+          </div>
         </div>
-      
-        <!-- Banner (Overlay) -->
-        <div class="carousel-caption position-absolute top-50 start-50 translate-middle text-center">
-          <h1 class="fw-dark">Our Drinks</h1>
-          <p class=" text-body-secondary fw-dark">Check out our drinks and recipes!</p>
-        </div>
+        <!-- Carousel controls (optional) -->
+        <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
       </div>
+    
+    
+      <div class="text-center my-1">
+        <h1 class="fw-dark">Our Drinks</h1>
+      </div>
+     
 
-      <div class="album py-5 bg-body-tertiary">
+      <div class="album py-2 bg-body-tertiary">
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
@@ -156,7 +150,7 @@
             <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
               <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
             </a>
-            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Spiced Milk Drink, Inc</span>
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -171,3 +165,5 @@
 
   </body>
 </html>
+
+

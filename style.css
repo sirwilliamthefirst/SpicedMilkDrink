@@ -59,6 +59,11 @@ nav ul{
  align-items: center;
 }
 
+.carousel-border {
+  border: 5px solid #e6e2dc; /* Adjust the thickness and color */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
 nav li{
   height: 50px;
 
@@ -127,22 +132,7 @@ nav li:first-child{
 }
 
 
-.card {
-  display: flex;
-  flex-direction: column;
-  height: 100%; /* Make the card take full height of its container */
-}
 
-.card-body {
-  flex-grow: 1; /* Ensure the body grows to fill available space */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.card img {
-    object-fit: cover; /* Ensure the images maintain aspect ratio while filling space */
-    height: 400px; /* Ensure the image height is uniform */
-  }
 @media(max-width: 800px){
   .title{
     height: 100px;
